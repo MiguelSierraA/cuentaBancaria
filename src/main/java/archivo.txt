@@ -1,0 +1,21 @@
+Cta ahorro 				cta corriente
+* Ingresar dinero 		* retiros
+* Ganar int. fijo		* transferencias de dinero
+* Retiros				* Sobregiro 50.000
+* Transferencias
+
+
+
+---------------
+Herencia
+Polimorfismo
+Clases Abstractas
+Interfaces
+
+__________________________
+clase abstracta					interfaz
+puede tener 					no necesita ser heredada
+atributos				  	metodos sin implementar
+construtor
+metodos
+metodos sin implementar ()

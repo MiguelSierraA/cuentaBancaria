@@ -1,6 +1,6 @@
 package models;
 
-public class CuentaCorriente extends Cuenta{
+public class CuentaCorriente extends Cuenta implements Transaccion{
 
     private float sobregiro;
 
@@ -10,4 +10,13 @@ public class CuentaCorriente extends Cuenta{
     }
 
 
+    @Override
+    public float retiros() {
+        return 0;
+    }
+
+    @Override
+    public float trasferencias() {
+        return 0;
+    }
 }
